@@ -1,5 +1,5 @@
 # NYC_congestion_modeling
-We determine optimal toll pricing for incoming cars for the Queens Midtown Tunnel. We use a publicly available dataset linked <a href="https://data.ny.gov/Transportation/Hourly-Traffic-on-Metropolitan-Transportation-Auth/qzve-kjga/about_data">here</a> that tracks hourly traffic from 2010-presen on all major bridges and tunnels entering NYC. We formulate this problem as a CTMC stochastic process, fitting paramters from the dataset using Maximum Likelihood Estimates, and determining an optimal pricing scheme based on the steady state distribution of the CTMC. 
+We determine optimal toll pricing for incoming cars for the Queens Midtown Tunnel. We use a publicly available dataset linked <a href="https://data.ny.gov/Transportation/Hourly-Traffic-on-Metropolitan-Transportation-Auth/qzve-kjga/about_data">here</a> that tracks hourly traffic from 2010-presen on all major bridges and tunnels entering NYC. We formulate this problem as a CTMC stochastic process, fitting paramters from the dataset using Maximum Likelihood Estimates, and determining an optimal pricing scheme based on the steady state distribution of the CTMC. See our paper <a href="https://drive.google.com/file/d/1e-d3AetBTYLrycZ4qsD-UbB1scHbu4xc/view?usp=drive_link">here<\a>
 
 ### Notebooks:
 - `EDA.ipynb`: notebook for conducting basic exploratory data analysis on the dataset
